@@ -212,8 +212,27 @@ img {
   min-width: 200px;
   padding: 10px 32px;
   border: 1px solid transparent;
+  -webkit-animation-name: button-open;
+          animation-name: button-open;
 }
 
+@-webkit-keyframes button-open {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 0;
+  }
+}
+
+@keyframes button-open {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 0;
+  }
+}
 .button-list {
   display: flex;
   justify-content: center;
