@@ -74,12 +74,12 @@ footer{
         color:     $primery-background;
         padding: 12px;
     
-        transition: background-color 250ms var(--cubic);
+        transition: background-color 250ms $cubic;
     } 
     
      &__item:hover{
         background-color: $accent-color;
-        color:     $primery-background;
+        color: $primery-background;
     }
  
      &__instagram{
@@ -103,7 +103,7 @@ footer{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 20px;
-    color:    $primery-background;
+    color:$primery-background;
     
     font-weight: 700;
     }
@@ -112,7 +112,7 @@ footer{
    width: 358px;
    height: 50px;
    border: 1px solid rgba(255, 255, 255, 0.3);
-   color:    $primery-background;
+   color:$primery-background;
 
    border-radius: 4px;
    background-color: $primery-bg--color;

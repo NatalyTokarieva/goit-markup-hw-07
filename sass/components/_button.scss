@@ -44,9 +44,9 @@
         cursor: pointer;
         border: 1px solid transparent;
     
-        transition: background-color 250ms var(--cubic);
-        transition: color 250ms var(--cubic);
-        transition: box-shadow 250ms var(--cubic);
+        transition: background-color 250ms $cubic;
+        transition: color 250ms $cubic;
+        transition: box-shadow 250ms $cubic;
     
        
      }

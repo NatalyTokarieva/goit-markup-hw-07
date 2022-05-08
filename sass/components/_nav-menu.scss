@@ -13,7 +13,7 @@
         text-decoration: none;
         cursor: pointer;
 
-        transition: color 250ms var(--cubic);
+        transition: color 250ms $cubic;
         position: relative;
         }
 
@@ -55,7 +55,7 @@
         text-decoration: none;
         cursor: pointer;
 
-        transition: color 250ms var(--cubic);
+        transition: color 250ms $cubic;
 
     }
 
@@ -75,7 +75,7 @@
     text-decoration: none;
     color: $connect-color;
 
-    transition: color 250ms var(--cubic);
+    transition: color 250ms $cubic;
 
     
 
