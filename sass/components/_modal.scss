@@ -190,9 +190,9 @@
             display: block;
             padding-left: 25px;
             text-align: center;
-         
+        }
         
-        & ::before{
+            .label-checkbox::before{
            position: absolute;
            left: 0;
            top: 0;
@@ -207,7 +207,7 @@
           
         }
         
-        & ::after{
+        .label-checkbox::after{
             display: none;
             position: absolute;
              left: 0;
@@ -226,10 +226,10 @@
          }
         
         .form-checkbox:checked + 
-        & ::after{
+        .label-checkbox::after{
             display: block;
         }
-    }
+    
         .modal-button{
             display: flex;
             justify-content: center;

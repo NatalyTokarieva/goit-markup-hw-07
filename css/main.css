@@ -796,7 +796,8 @@ footer {
   padding-left: 25px;
   text-align: center;
 }
-.label-checkbox ::before {
+
+.label-checkbox::before {
   position: absolute;
   left: 0;
   top: 0;
@@ -809,7 +810,8 @@ footer {
   cursor: pointer;
   background-size: contain;
 }
-.label-checkbox ::after {
+
+.label-checkbox::after {
   display: none;
   position: absolute;
   left: 0;
@@ -825,7 +827,8 @@ footer {
   background-size: contain;
   content: "";
 }
-.form-checkbox:checked + .label-checkbox ::after {
+
+.form-checkbox:checked + .label-checkbox::after {
   display: block;
 }
 
