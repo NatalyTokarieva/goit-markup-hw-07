@@ -1,18 +1,13 @@
 .site-nav{
     display: flex;
-    margin-left: 93px;
+
     white-space: nowrap;
     
-
-
- 
-
-
     &__link{
         display: block;
         padding-top: 32px;
         padding-bottom: 32px;
-
+        margin-right: 50px;
         color:$primery-color;
 
         text-decoration: none;

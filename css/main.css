@@ -65,6 +65,10 @@ img {
   align-items: center;
 }
 
+.logotip {
+  margin-right: 93px;
+}
+
 .logo, .logoweb {
   color: #212121;
   font-family: "Raleway", sans-serif;
@@ -82,13 +86,13 @@ img {
 
 .site-nav {
   display: flex;
-  margin-left: 93px;
   white-space: nowrap;
 }
 .site-nav__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+  margin-right: 50px;
   color: #212121;
   text-decoration: none;
   cursor: pointer;

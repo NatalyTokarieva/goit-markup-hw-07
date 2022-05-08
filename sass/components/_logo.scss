@@ -1,3 +1,6 @@
+.logotip{
+    margin-right: 93px;
+}
 .logo {
     color: $primery-color;
        font-family: 'Raleway',sans-serif;
@@ -7,9 +10,11 @@
     text-decoration: none;
     cursor: default;
     display: flex;
+
     
 }
 .logoweb{
     @extend .logo;
     color: $accent-color;
+
 }
